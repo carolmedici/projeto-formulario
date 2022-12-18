@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mentoria</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header>
+        <h1>MENTORIA</h1>
+        <p>Preencha o formulário abaixo para agendar a sua mentoria</p>
+    </header>
+
+    <div>
+        <form action="" method="">
+            <fieldset>
+                <div>
+                    <legend>INFORMAÇÕES PESSOAIS</legend>
+                        <div class="input-wrapper">
+                            <div class="name">
+                                <div class="input-wrapper">
+                                    <label for="name">Nome</label>
+                                    <input type="text" name="name" id="name" required autocomplete="off">
+                                </div>
+                                <div class="input-wrapper">
+                                    <label for="surname">Sobrenome</label>
+                                    <input type="text" name="surname" id="surname" required autocomplete="off">
+                                </div>
+                            </div>
+        
+                            <div class="input-wrapper">
+                            <label for="email">Email <span>(digite um e-mail válido)</span></label>
+                            <input type="email" name="email" id="email" required autocomplete="off">
+                        </div>
+                        <div class="input-wrapper">
+                            <label for="password">Senha <span>(mínimo de 8 caracteres)</span></label>
+                            <input type="password" name="password" id="password" required minlength="8">
+                        </div>
+                    <legend>INFORMAÇÕES DO MENTOR</legend>
+        
+                        <div class="input-wrapper">
+                            <label for="name">Nome do seu mentor <span>(só o primeiro nome)</span></label>
+                            <input type="text" name="name" id="name" required autocomplete="off">
+                    </div>
+                    <legend>SEUS HORÁRIOS DISPONÍVEIS</legend>
+                    <h2>PRIMEIRA MENTORIA</h2>
+                    <div class="input-wrapper">
+                        <div class="mentoria">
+                            <div class="input-wrapper">
+                                <label for="data">Data <span>(DD/MM/AAAA)</span></label>
+                                <input type="date" name="data" id="data" required>
+                            </div>
+                            <div class="input-wrapper">
+                                <label for="inicio-mentoria">Das</label>
+                                <input type="time" name="inicio-mentoria" id="inicio-mentoria" required>
+                            </div>
+                            <div class="input-wrapper">
+                                <label for="mentoria-end">Até</label>
+                                <input type="time" name="mentoria-end" id="mentoria-end" required>
+                            </div>
+                    </div>
+                    <h2>SEGUNDA MENTORIA</h2>
+                    <div class="input-wrapper">
+                        <div class="mentoria">
+                            <div class="input-wrapper">
+                                <label for="data2">Data <span>(DD/MM/AAAA)</span></label>
+                                <input type="date" name="data2" id="data2" required>
+                            </div>
+                            <div class="input-wrapper">
+                                <label for="inicio-mentoria2">Das</label>
+                                <input type="time" name="inicio-mentoria2" id="inicio-mentoria2" required>
+                            </div>
+                            <div class="input-wrapper">
+                                <label for="mentoria-end2">Até</label>
+                                <input type="time" name="mentoria-end2" id="mentoria-end2" required>
+                                <br><br><br><br><br>
+                            </div>
+                    </div>
+                </div>
+            </fieldset>
+            <div class="input-wrapper">
+                <footer>
+                    <input class="botao" type="submit" value="SALVAR">
+                </footer>
+            </div>
+        </form>
+        
+    </div>
+    
+</body>
+
+
+
+
+</html>
